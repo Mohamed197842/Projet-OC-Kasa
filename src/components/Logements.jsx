@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../data/logements.json";
 import LogementsCard from "./LogementsCard";
+import Tag from "./Tag";
 
 export default function Logements() {
   return (
@@ -10,7 +11,7 @@ export default function Logements() {
           <LogementsCard
             key={logement.id}
             title={logement.title}
-            //cover={logement.cover}
+            cover={logement.cover}
           />
         ))}
       </div>

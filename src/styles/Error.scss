@@ -1,0 +1,28 @@
+.error-content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  color: #ff6060;
+  align-items: center;
+}
+
+.error-content h1 {
+  box-sizing: border-box;
+  font-size: 288px;
+  font-weight: 700;
+  margin: 65px 0 0 0;
+}
+
+.error-content p {
+  font-size: 36px;
+  margin-top: 65px;
+}
+
+.link-home {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}

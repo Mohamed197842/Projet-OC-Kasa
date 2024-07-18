@@ -1,9 +1,10 @@
 import React from "react";
 import KasaLogo2 from "../images/KasaLogo2.png";
+import "../styles/Footer.scss";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="logo">
         <img src={KasaLogo2} alt="Kasa logo" />
       </div>

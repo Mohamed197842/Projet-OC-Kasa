@@ -1,17 +1,17 @@
-import "../styles/Home.scss";
+import "../styles/ErrorPage.scss";
 import { Routes, Route } from "react-router-dom";
-import Logements from "../components/Logements";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Error from "../components/Error";
 
-function Home() {
+function ErrorPage() {
   return (
-    <div className="Home">
+    <div className="Errror">
       <Header />
-      <Logements />
+      <Error />
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default ErrorPage;
