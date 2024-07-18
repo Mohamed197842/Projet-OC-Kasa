@@ -1,0 +1,19 @@
+/* Default styles */
+.logements-cards {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 10px;
+  min-width: 340px;
+  background-color: #f15b5b;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+.card-content {
+  position: absolute;
+  top: 268px;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,27 @@
+.header {
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 68px;
+  width: 210.32px;
+}
+
+.navbar {
+  display: flex;
+  gap: 37px;
+}
+
+.navbar .link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar .link:hover {
+  text-decoration: underline;
+}
