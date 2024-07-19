@@ -1,11 +1,12 @@
 import React from "react";
 import data from "../data/logements.json";
 import LogementsCard from "./LogementsCard";
+import "../styles/LogementsMenu.scss";
 import Tag from "./Tag";
 
-export default function Logements() {
+export default function LogementsMenu() {
   return (
-    <div className="logment-menu">
+    <div className="logement-menu">
       <div className="grid-cards">
         {data.map((logement) => (
           <LogementsCard

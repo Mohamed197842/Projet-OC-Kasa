@@ -1,0 +1,32 @@
+.logement-menu {
+  max-width: 1240px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.grid-cards {
+  display: grid;
+  row-gap: 50px;
+  column-gap: 50px;
+  padding: 43px 3.47% 43px 3.47%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: center;
+  align-items: center;
+}
+
+/* Media query for screens below 1420px */
+@media screen and (max-width: 1420px) {
+  .grid-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* Switch to 2 cards per row */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .grid-cards {
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
