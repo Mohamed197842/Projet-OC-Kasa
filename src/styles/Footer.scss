@@ -8,13 +8,12 @@
   height: 209px;
   gap: 30px;
   margin-top: 43px;
-}
-
-.content {
-  color: white;
-}
-
-.footer .logo img {
-  width: 122px;
-  height: 34px;
+  // On imbrique le style des elements descendant comme en html (Nesting)
+  &__logo img {
+    width: 122px;
+    height: 34px;
+  }
+  &__content {
+    color: white;
+  }
 }

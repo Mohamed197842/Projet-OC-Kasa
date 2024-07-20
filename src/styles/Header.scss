@@ -7,7 +7,7 @@
   padding: 30px 0 27px 0;
 }
 
-.header img {
+.Logo img {
   height: 68px;
   width: 210.32px;
 }
@@ -15,15 +15,14 @@
 .navbar {
   display: flex;
   gap: 37px;
-}
-
-.navbar .link {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.navbar .link:hover {
-  text-decoration: underline;
+  // On imbrique le style des elements descendant comme en html (Nesting)
+  &__link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  &__link:hover {
+    text-decoration: underline;
+  }
 }

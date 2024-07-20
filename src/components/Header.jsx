@@ -10,10 +10,10 @@ export default function Header() {
         <img src={KasaLogo} alt="Kasa Logo" />
       </div>
       <nav className="navbar">
-        <Link to="/" className="link">
+        <Link to="/" className="navbar__link">
           Acceuil
         </Link>
-        <Link to="/src/pages/About" className="link">
+        <Link to="/about" className="navbar__link">
           A propos
         </Link>
       </nav>
