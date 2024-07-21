@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import SlidesShow from "./SlidesShow";
 import data from "../data/logements.json";
+import LogementDetails from "./LogementDetails";
 import "../styles/Logementspage.scss";
 
 export default function Logementspage() {
@@ -15,7 +16,7 @@ export default function Logementspage() {
   return (
     <div className="logementspage">
       <SlidesShow pictures={logement.pictures} />
-      <p>Ceci va être l'emplacement des détails du logement</p>
+      <LogementDetails logement={logement} />
     </div>
   );
 }

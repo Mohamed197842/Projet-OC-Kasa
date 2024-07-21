@@ -1,12 +1,15 @@
 // AboutPage.jsx
 import React from "react";
 import Logementspage from "../components/Logementspage";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function LogementPage() {
   return (
     <div>
-      <h1>Logement Page</h1>
+      <Header />
       <Logementspage />
+      <Footer />
     </div>
   );
 }

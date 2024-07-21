@@ -1,0 +1,12 @@
+.rating {
+  display: flex;
+
+  .fa-star {
+    font-size: 24px;
+    color: lightgray;
+  }
+
+  .fa-star.filled {
+    color: #ff6060;
+  }
+}

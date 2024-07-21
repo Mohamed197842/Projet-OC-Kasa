@@ -2,7 +2,6 @@ import React from "react";
 import data from "../data/logements.json";
 import LogementsCard from "./LogementsCard";
 import "../styles/LogementsMenu.scss";
-import Tag from "./Tag";
 
 export default function LogementsMenu() {
   return (
