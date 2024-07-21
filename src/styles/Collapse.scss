@@ -12,12 +12,18 @@
     background-color: #ff6060;
     border-radius: 10px;
     box-sizing: border-box;
+    justify-content: space-between;
 
     &__title {
       font-size: 18px;
       font-weight: 700;
       margin-left: 20px;
+    }
+
+    &__arrow {
+      margin-right: 20px;
       cursor: pointer;
+      transition: transform 0.3s ease-in-out;
     }
   }
 
@@ -34,6 +40,12 @@
     box-sizing: border-box;
     transform: scale(0);
     animation: ScaleIn 0.05s linear forwards;
+  }
+
+  &.open {
+    .collapse__header__arrow {
+      transform: rotate(180deg);
+    }
   }
 }
 

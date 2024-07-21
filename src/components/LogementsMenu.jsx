@@ -11,6 +11,7 @@ export default function LogementsMenu() {
         {data.map((logement) => (
           <LogementsCard
             key={logement.id}
+            id={logement.id}
             title={logement.title}
             cover={logement.cover}
           />

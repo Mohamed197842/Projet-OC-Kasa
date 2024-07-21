@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import SlidesShow from "./SlidesShow";
 import data from "../data/logements.json";
+import "../styles/Logementspage.scss";
 
 export default function Logementspage() {
   const { id } = useParams();
@@ -12,9 +13,9 @@ export default function Logementspage() {
   }
 
   return (
-    <div>
+    <div className="logementspage">
       <SlidesShow pictures={logement.pictures} />
-      <p>Ceci va etre l'emplacement des details du logement</p>
+      <p>Ceci va être l'emplacement des détails du logement</p>
     </div>
   );
 }
