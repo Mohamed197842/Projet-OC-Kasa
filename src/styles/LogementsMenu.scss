@@ -3,6 +3,11 @@
   background-color: #f6f6f6;
   margin: 0 auto;
   border-radius: 25px;
+
+  @media screen and (max-width: 800px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   // On imbrique le style des elements descendant comme en html (Nesting)
   .grid-cards {
     display: grid;

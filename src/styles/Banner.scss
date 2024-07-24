@@ -6,6 +6,11 @@
   border-radius: 25px;
   padding-top: 30px;
   padding-bottom: 43px;
+  // on imbrique le media query directement dans l'element
+  @media screen and (max-width: 800px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   // On imbrique le style des elements descendant comme en html (Nesting)
   &__image {
     width: 100%;
