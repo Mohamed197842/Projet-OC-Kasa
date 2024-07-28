@@ -1,11 +1,16 @@
 .slideShow {
   width: 100%;
   position: relative;
+
   &__carrousel {
     width: 100%;
     object-fit: cover;
     max-height: 415px;
     border-radius: 25px;
+
+    @media screen and (max-width: 764px) {
+      height: 255px;
+    }
   }
   &__btn {
     position: absolute;

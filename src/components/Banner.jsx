@@ -7,7 +7,10 @@ export function Banner() {
   return (
     <div className="banner">
       <img src={BannerImgage1} alt="first banner" className="banner__image" />
-      <div className="banner__text">Chez vous, partout et ailleurs</div>
+      <div className="banner__text">
+        Chez vous,
+        <br /> partout et ailleurs
+      </div>
     </div>
   );
 }

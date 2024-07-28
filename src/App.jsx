@@ -1,4 +1,3 @@
-import "./styles/App.scss";
 import { Routes, Route } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";

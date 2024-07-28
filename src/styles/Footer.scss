@@ -8,6 +8,10 @@
   height: 209px;
   gap: 30px;
   margin-top: 43px;
+
+  @media screen and (max-width: 764px) {
+    height: 300px;
+  }
   // On imbrique le style des elements descendant comme en html (Nesting)
   &__logo img {
     width: 122px;

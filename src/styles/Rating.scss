@@ -1,5 +1,9 @@
-.rating {
+.logement-rating {
   display: flex;
+
+  @media screen and (max-width: 764px) {
+    align-items: center;
+  }
 
   .fa-star {
     font-size: 24px;

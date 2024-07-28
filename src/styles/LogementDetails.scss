@@ -2,10 +2,21 @@
   width: 100%;
   margin-top: 15px;
 
+  // on imbrique le media query directement dans l'element
+  @media screen and (max-width: 1240px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  // on imbrique le media query directement dans l'element
   .LogementDetails {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media screen and (max-width: 764px) {
+      flex-direction: column;
+    }
 
     .LogementInfos__title {
       font-size: 36px;
@@ -24,6 +35,13 @@
 
     .LogementHost-rating {
       color: #ff6060;
+
+      @media screen and (max-width: 764px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
 
       &__host {
         display: flex;
@@ -52,6 +70,11 @@
     margin-top: 20px;
     ul {
       list-style: none;
+    }
+
+    @media screen and (max-width: 764px) {
+      flex-direction: column;
+      gap: 20px;
     }
   }
 }

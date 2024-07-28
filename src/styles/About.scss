@@ -4,4 +4,13 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media screen and (max-width: 1240px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: 764px) {
+    gap: 20px;
+  }
 }
