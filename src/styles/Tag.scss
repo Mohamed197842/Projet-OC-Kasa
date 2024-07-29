@@ -12,6 +12,10 @@
   line-height: 25px;
   color: #ffffff;
 
+  @media screen and (max-width: 764px) {
+    width: 84px;
+  }
+
   &::marker {
     content: none; // Assure qu'aucun contenu ne soit ajouté par le pseudo-élément
   }

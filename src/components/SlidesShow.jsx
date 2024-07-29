@@ -39,6 +39,9 @@ export default function SlidesShow({ pictures }) {
         alt={`Slide ${currentSlide + 1}`}
         className="slideShow__carrousel"
       />
+      <div className="slide-counter">
+        {currentSlide + 1}/{pictures.length}
+      </div>
       <div onClick={goToNextSlide} className="slideShow__btn next">
         <svg
           width="48"

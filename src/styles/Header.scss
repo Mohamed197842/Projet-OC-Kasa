@@ -38,11 +38,16 @@
     font-weight: 500;
 
     @media screen and (max-width: 450px) {
-      font-size: 12px;
+      font-size: 14px;
       text-align: right;
     }
-  }
-  &__link:hover {
-    text-decoration: underline;
+
+    &.active {
+      text-decoration: underline;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
