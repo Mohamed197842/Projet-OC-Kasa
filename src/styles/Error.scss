@@ -5,6 +5,11 @@
   flex-direction: column;
   color: #ff6060;
   align-items: center;
+
+  @media screen and (max-width: 900px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .error-content h1 {
@@ -12,11 +17,20 @@
   font-size: 288px;
   font-weight: 700;
   margin: 65px 0 0 0;
+
+  @media screen and (max-width: 764px) {
+    font-size: 96px;
+  }
 }
 
 .error-content p {
   font-size: 36px;
   margin-top: 65px;
+
+  @media screen and (max-width: 764px) {
+    font-size: 18px;
+    text-align: center;
+  }
 }
 
 .link-home {
@@ -25,4 +39,8 @@
   font-weight: 500;
   margin-top: 65px;
   margin-bottom: 65px;
+
+  @media screen and (max-width: 764px) {
+    font-size: 14px;
+  }
 }
