@@ -21,6 +21,9 @@
     height: 46.88px;
     width: 145px;
   }
+  @media screen and (max-width: 375px) {
+    width: 120px;
+  }
 }
 
 .navbar {
