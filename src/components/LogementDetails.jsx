@@ -17,11 +17,7 @@ export default function LogementDetails({ logement }) {
         </div>
         <div className="LogementHost-rating">
           <div className="LogementHost-rating__host">
-            <p className="host-name">
-              {host.name.split(" ")[0]}
-              <br />
-              {host.name.split(" ")[1]}
-            </p>
+            <p className="host-name">{host.name}</p>
             <img src={host.picture} alt="" className="profile-picture" />
           </div>
           <Rating rating={rating} />
