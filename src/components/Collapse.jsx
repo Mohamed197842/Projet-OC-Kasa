@@ -4,7 +4,6 @@ import "../styles/Collapse.scss";
 export default function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Détermine les classes à appliquer au conteneur principal
   const containerClassName = isOpen ? "collapse open" : "collapse";
 
   return (
