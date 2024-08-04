@@ -8,7 +8,15 @@ function Home() {
   return (
     <div className="Home">
       <Header />
-      <Banner img={BannerImgage1} content={"chez vous, partout et ailleurs"} />
+      <Banner
+        img={BannerImgage1}
+        content={
+          <>
+            Chez vous,
+            <br /> partout et ailleurs
+          </>
+        }
+      />
       <LogementsMenu />
       <Footer />
     </div>
