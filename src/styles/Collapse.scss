@@ -40,7 +40,6 @@
     box-sizing: border-box;
     transform: scale(0);
     animation: ScaleIn 0.05s linear forwards;
-    min-height: 220px; // Ajustez selon vos besoins
   }
 
   &.open {
